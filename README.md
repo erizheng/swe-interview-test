@@ -9,3 +9,13 @@ THIS IS TO TEST YOUR SKILLS TO MEET OUR APP DEVELOPMENT REQUIREMENTS
 
 HAPPY CODING! </br>
 A Round Entertainment
+
+HOW TO LAUNCH:
+1. cd StarterCode/backend
+2. npm i
+3. node index.js
+4. cd ../frontend
+5. npm i
+6. npm start
+7. open up http://localhost:3000/
+8. open up http://localhost:5000/ to observe backend
