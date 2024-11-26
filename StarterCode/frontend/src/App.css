@@ -1,0 +1,42 @@
+/* 
+.xButton {
+    padding-top: 5px;
+    padding-left: 5px;
+} */
+
+.ProductItem {
+	background-color: white;
+	width: 100%;
+	height: auto;
+	border: 1px solid var(--color-0);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	cursor: pointer;
+    margin-left: 0px;
+    padding: 0px;
+}
+/* 
+.Pics {
+    margin-left: 0px;
+    width: 100%;
+} */
+
+
+.gridContainer {
+	display: flex;
+  	flex-direction: column;
+	grid-template-columns: 1fr;
+}
+.image-grid {
+	display: grid;
+	max-width: 100%;
+	grid-template-columns: repeat(3, minmax(250px, 1fr));
+	grid-auto-rows: minmax(100px, auto);
+    column-gap: 30px;
+	row-gap: 55px;
+	margin-top: 40px; 
+    margin-left: 120px;
+    margin-right: 120px;
+}
